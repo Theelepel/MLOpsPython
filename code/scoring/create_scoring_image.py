@@ -79,7 +79,7 @@ print(
 )
 
 os.chdir("scoring")
-image_name = "diabetes-model-score"
+image_name = "diabetes-model-score_test"
 
 image_config = ContainerImage.image_configuration(
     execution_script="score.py",
